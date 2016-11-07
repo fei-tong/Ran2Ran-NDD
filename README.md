@@ -11,8 +11,7 @@ The project contains two folders:
 Two sections will be introduced below: Sec1: Approach; Sec2: Simualtion
 ## Sec1: Approach:
    The genergal function is 
-   
-   * -> function [ d_array, cdf_array ] = f_rand2rand_arbitrary_polygon( triangle_cell,varargin )</br>
+   * -> function [ d_array, cdf_array ] = f_rand2rand_arbitrary_polygon( triangle_cell,varargin )</br>
         % This function is to get the numerical Ran2Ran distance distribution </br>
         %   within an arbitrary polygon.</br>
         %</br>
@@ -26,7 +25,7 @@ Two sections will be introduced below: Sec1: Approach; Sec2: Simualtion
         %          triangle.</br>
         % Output:</br>
         %   [ d_array, cdf_array ]: Ran2Ran distance distribution within the polygon</br>
-
+        </br>
     This general function will call the following to functions to get the results associated with the triangulated triangles. 
     Then with the probabilistic sum method, the result assiciated with the polygon can be obtained:
    * -> in folder /single_triangle</br>
