@@ -11,6 +11,7 @@ The project contains two folders:
 Two sections will be introduced below: Sec1: Approach; Sec2: Simualtion
 ## Sec1: Approach:
    The genergal function is 
+   
    * -> function [ d_array, cdf_array ] = f_rand2rand_arbitrary_polygon( triangle_cell,varargin )</br>
         % This function is to get the numerical Ran2Ran distance distribution </br>
         %   within an arbitrary polygon.</br>
